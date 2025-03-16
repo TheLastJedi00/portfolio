@@ -37,7 +37,7 @@ body {
   font-size: 1.5em;
   margin-bottom: 1em;
 }
-.apresentacao__conteudo__perfil{
+.apresentacao__conteudo__perfil {
   display: flex;
   width: 40%;
 }
@@ -54,9 +54,12 @@ body {
   font-family: poppins;
   font-weight: 500;
 }
-.apresentacao__links__link{
+.apresentacao__links__link {
   /* background-color: #c0d4f4; */
-  background-color:#2b2b33;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2b2b33;
   width: 300px;
   text-align: center;
   border-radius: 16px;
@@ -67,4 +70,16 @@ body {
   text-decoration: none;
   color: #dedede;
   font-weight: semibold;
+}
+.apresentacao__links__link:hover {
+  background-color: black;
+  color: #c0d4f4;
+}
+.apresentacao__links__link__linkedin {
+  width: 30px;
+  gap: 1em;
+}
+.apresentacao__links__link__github {
+  width: 30px;
+  gap: 1em;
 }
